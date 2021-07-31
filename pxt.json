@@ -1,0 +1,31 @@
+{
+    "name": "Mcqueen - Bluetooth Control",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "bluetooth": "*",
+        "maqueen": "github:jhlucky/maqueen#04e836719d009a1e8fe2cb03b324f0b70ee490be",
+        "devices": "*",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v2.0.6",
+        "tag": "v2.0.6",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/78a06a90847a7a9564487f021a81b2a5b9885f2d",
+        "target": "4.0.11",
+        "pxt": "5.15.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
